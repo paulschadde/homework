@@ -36,7 +36,8 @@
 9. **Aggregate:** I will compute the mean `imdb_rating` and the number of titles per genre(part 1) and per genre and decade (part 2), keeping only groups with at least 10 titles.
 
 ## 4. Feasibility and Open Issues
-- After filtering (movies only, ≥1,000 votes, no missing values), the sample may become small.I will check how many titles remain before deciding on the 10-title minimum.
+- After filtering (movies only, ≥1,000 votes, no missing values), the sample may become small.
+I will check how many titles remain before deciding on the 10-title minimum.
 - Older decades likely contain few titles, so part 2 may only be meaningful for recent decades.
 - Counting a title in several genres means genre averages are not independent; this should be
   mentioned when interpreting the results.
